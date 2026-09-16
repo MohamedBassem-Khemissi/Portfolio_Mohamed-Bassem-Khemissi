@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  <title>Mohamed Bassem Khemissi — Senior BIM Professional &amp; Founder, DigiBuild Solutions</title>
+  <meta name="description" content="Senior BIM Professional &amp; Founder of DigiBuild Solutions. Expert in Multidisciplinary BIM, ISO 19650, openBIM/IFC, and QA/QC automation. Available for global AEC projects." />
+  <meta name="keywords" content="BIM Professional, BIM Manager, Revit, Navisworks, ISO 19650, openBIM, IFC, pyRevit, AEC, DigiBuild Solutions, Mohamed Bassem Khemissi" />
+  <meta name="author" content="Mohamed Bassem Khemissi" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Mohamed Bassem Khemissi — Senior BIM Professional" />
+  <meta property="og:description" content="Precision-engineered digital intelligence for the AEC industry." />
+  <meta property="og:image" content="assets/images/digibuild_social.png" />
+  <link rel="canonical" href="https://digibuild-solutions.com" />
+  <link rel="icon" type="image/png" href="assets/images/digibuild_mark.png" />
+  <link rel="apple-touch-icon" href="assets/images/digibuild_icon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Page Loader -->
+<div id="page-loader" role="status" aria-label="Loading">
+  <div class="pl-logo"><img src="assets/images/digibuild_logo.png" alt="DigiBuild Solutions" /></div>
+  <div class="pl-bar"><div class="pl-fill"></div></div>
+</div>
+
+<!-- Custom Cursor -->
+<div id="cursor" aria-hidden="true"></div>
+<div id="cursor-ring" aria-hidden="true"></div>
+
+<!-- ═══════════════════════════════════════
+     NAVIGATION
+═══════════════════════════════════════ -->
+<header>
+  <nav id="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="DigiBuild Solutions">
+        <img src="assets/images/digibuild_logo.png" alt="DigiBuild Solutions" />
+      </a>
+
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#about"    class="nav-link" data-i18n="nav.about">About</a></li>
+        <li><a href="#features" class="nav-link" data-i18n="nav.services">Services</a></li>
+        <li><a href="#projects" class="nav-link" data-i18n="nav.projects">Projects</a></li>
+        <li><a href="#expertise"class="nav-link" data-i18n="nav.expertise">Expertise</a></li>
+        <li><a href="#faq"      class="nav-link" data-i18n="nav.faq">FAQ</a></li>
+        <li><a href="#contact"  class="nav-link" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+
+      <!-- Language Switcher -->
+      <div class="lang-switcher" id="langSwitcher">
+        <button class="lang-active" id="langBtn" aria-haspopup="listbox" aria-expanded="false" aria-label="Switch language">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+          <span id="langCode">EN</span>
+          <svg class="lang-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="lang-dropdown" id="langDropdown" role="listbox" aria-label="Language options">
+          <button class="lang-option active" data-lang="en" role="option" aria-selected="true">🇬🇧 English</button>
+          <button class="lang-option" data-lang="fr" role="option" aria-selected="false">🇫🇷 Français</button>
+          <button class="lang-option" data-lang="de" role="option" aria-selected="false">🇩🇪 Deutsch</button>
+        </div>
+      </div>
+
+      <div class="nav-cta">
+        <a href="assets/portfolio.pdf" download class="btn btn-secondary" style="padding:8px 18px;font-size:.82rem;border-radius:var(--r-full);" aria-label="Download CV">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span data-i18n="nav.cv">CV</span>
+        </a>
+        <a href="#contact" class="nav-pill" data-i18n="nav.letstalk">Let's Talk</a>
+      </div>
+
+      <button class="nav-burger" id="navBurger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<!-- ═══════════════════════════════════════
+     HERO
+═══════════════════════════════════════ -->
+<section id="hero" aria-label="Hero">
+  <div class="hero-orb hero-orb-1" aria-hidden="true"></div>
+  <div class="hero-orb hero-orb-2" aria-hidden="true"></div>
+
+  <!-- Left content -->
+  <div class="hero-left">
+    <div class="hero-eyebrow" aria-label="Status: Available for projects">
+      <span class="hero-eyebrow-badge" data-i18n="hero.badge">Open to Work</span>
+      <span class="hero-eyebrow-text" data-i18n="hero.badge.sub">Available for global AEC projects</span>
+    </div>
+
+    <h1>
+      <span data-i18n="hero.h1.a">Senior BIM</span><br>
+      <span class="gradient-text" data-i18n="hero.h1.b">Professional</span>
+    </h1>
+
+    <div class="hero-typerow" aria-label="Professional title">
+      <span id="typeText"></span><span class="typerow-cursor" aria-hidden="true">|</span>
+    </div>
+
+    <p class="hero-desc" data-i18n-html="hero.desc">
+      I'm <strong>Mohamed Bassem Khemissi</strong>, Founder of <strong>DigiBuild Solutions</strong> —
+      delivering precision-engineered BIM across Architecture, Structure, and MEP.
+      ISO 19650 compliant. openBIM native. Automation-first.
+    </p>
+
+    <div class="hero-actions">
+      <button id="watchIntroBtn" class="btn btn-primary btn-lg" aria-label="Watch video introduction">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        <span data-i18n="hero.btn.watch">Watch Intro</span>
+      </button>
+      <a href="#projects" class="btn btn-secondary btn-lg" aria-label="View project case studies">
+        <span data-i18n="hero.btn.projects">View Projects</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+
+    <div class="hero-trust">
+      <span class="hero-trust-label" data-i18n="hero.trust.label">Specializations ·</span>
+      <div class="hero-trust-badges" aria-label="Technical specializations">
+        <span class="hero-trust-badge">ISO 19650</span>
+        <span class="hero-trust-badge">openBIM · IFC</span>
+        <span class="hero-trust-badge">Revit · Navisworks</span>
+        <span class="hero-trust-badge">pyRevit · Python</span>
+        <span class="hero-trust-badge">LOD 100–500</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right: BIM Dashboard Card -->
+  <div class="hero-right" aria-hidden="true">
+    <div class="bim-card">
+      <!-- Card Header -->
+      <div class="bim-card-header">
+        <div class="bim-card-dots">
+          <div class="bim-card-dot"></div>
+          <div class="bim-card-dot"></div>
+          <div class="bim-card-dot"></div>
+        </div>
+        <span class="bim-card-title" data-i18n="bim.title">DigiBuild · BIM Coordination Hub</span>
+        <span class="bim-card-status" data-i18n="bim.live">Live</span>
+      </div>
+
+      <div class="bim-card-body">
+        <!-- Active Project -->
+        <div class="bim-project-row">
+          <div class="bim-project-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <div>
+            <div class="bim-project-name" data-i18n="bim.proj.name">Lusail Supertall — Q4 2026</div>
+            <div class="bim-project-sub" data-i18n="bim.proj.sub">68F · Mixed-Use · BIM 360 · ISO 19650</div>
+          </div>
+          <span class="badge badge-green bim-project-badge" data-i18n="bim.active">Active</span>
+        </div>
+
+        <!-- Key Metrics -->
+        <div class="bim-metrics">
+          <div class="bim-metric">
+            <div class="bim-metric-val blue" id="heroClashes">0</div>
+            <div class="bim-metric-lbl" data-i18n="bim.m.clashes">Open Clashes</div>
+          </div>
+          <div class="bim-metric">
+            <div class="bim-metric-val green">LOD 400</div>
+            <div class="bim-metric-lbl" data-i18n="bim.m.lod">Model Level</div>
+          </div>
+          <div class="bim-metric">
+            <div class="bim-metric-val violet">ISO ✓</div>
+            <div class="bim-metric-lbl" data-i18n="bim.m.iso">Compliance</div>
+          </div>
+        </div>
+
+        <!-- Progress bars -->
+        <div class="bim-progress-group">
+          <div class="bim-progress-item">
+            <div class="bim-progress-label"><span data-i18n="bim.bar.arch">Architecture</span> <span>94%</span></div>
+            <div class="bim-bar-track"><div class="bim-bar-fill blue" style="width:94%;--delay:.3s"></div></div>
+          </div>
+          <div class="bim-progress-item">
+            <div class="bim-progress-label"><span data-i18n="bim.bar.struct">Structure</span> <span>88%</span></div>
+            <div class="bim-bar-track"><div class="bim-bar-fill violet" style="width:88%;--delay:.5s"></div></div>
+          </div>
+          <div class="bim-progress-item">
+            <div class="bim-progress-label"><span data-i18n="bim.bar.mep">MEP Coordination</span> <span>76%</span></div>
+            <div class="bim-bar-track"><div class="bim-bar-fill green" style="width:76%;--delay:.7s"></div></div>
+          </div>
+        </div>
+
+        <!-- Clash status -->
+        <div class="bim-clash-row">
+          <div class="bim-clash-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <div class="bim-clash-text">
+            <strong data-i18n="bim.clash.strong">0 Critical Clashes</strong>
+            <span data-i18n="bim.clash.sub">Last coordination: Today, 02:41 AM</span>
+          </div>
+          <span class="bim-clash-badge" data-i18n="bim.clash.badge">Resolved</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     ABOUT
+═══════════════════════════════════════ -->
+<section id="about" aria-labelledby="about-h" style="padding: var(--section-py) var(--container-pad);">
+  <div style="max-width:var(--container-max);margin:0 auto;">
+    <div style="display:grid;grid-template-columns:420px 1fr;gap:clamp(48px,7vw,96px);align-items:start;" class="about-layout">
+      <!-- Avatar -->
+      <div class="reveal" style="position:sticky;top:100px;">
+        <div style="border-radius:var(--r-2xl);overflow:hidden;border:1px solid var(--border-accent);box-shadow:0 0 40px rgba(37,99,235,.07);position:relative;">
+          <img src="assets/images/avatar.jpg" alt="Mohamed Bassem Khemissi — Senior BIM Professional" loading="lazy" style="height:500px;object-fit:cover;object-position:top;" />
+          <div style="position:absolute;inset:0;background:linear-gradient(to bottom, transparent 60%, rgba(15,23,42,.5) 100%);"></div>
+          <div style="position:absolute;bottom:0;left:0;right:0;padding:24px;">
+            <div style="background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border:1px solid var(--border-accent);border-radius:var(--r-lg);padding:16px 20px;display:flex;align-items:center;gap:12px;">
+              <div style="width:40px;height:40px;border-radius:50%;background:var(--blue-glow);border:2px solid var(--blue);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:800;color:var(--blue);font-size:.9rem;flex-shrink:0;">MB</div>
+              <div>
+                <div style="font-family:var(--font-display);font-weight:700;font-size:.9rem;color:var(--text-primary);">Mohamed Bassem Khemissi</div>
+                <div style="font-family:var(--font-mono);font-size:.68rem;color:var(--text-muted);letter-spacing:.04em;" data-i18n="about.role">Founder · DigiBuild Solutions</div>
+              </div>
+              <div style="margin-left:auto;display:flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:.68rem;color:var(--emerald);">
+                <div style="width:6px;height:6px;border-radius:50%;background:var(--emerald);animation:pulse-dot 2s infinite;"></div>
+                <span data-i18n="about.avail">Available</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div>
+        <div class="section-tag reveal"><span class="dot"></span><span data-i18n="about.tag">About Me</span></div>
+        <h2 id="about-h" class="reveal d1" style="margin-bottom:6px;">
+          <span data-i18n="about.h2.a">Building the Future</span><br>
+          <span class="gradient-text" data-i18n="about.h2.b">One Model at a Time</span>
+        </h2>
+
+        <p class="reveal d2" style="font-size:1rem;color:var(--text-secondary);line-height:1.85;margin:20px 0 32px;" data-i18n-html="about.bio">
+          With over a decade at the intersection of engineering and digital innovation, I lead complex BIM
+          workflows across Architecture, Structure, and MEP disciplines for projects spanning North Africa, the Gulf, and Europe.
+          <br><br>
+          My approach combines <strong style="color:var(--text-primary);">ISO 19650 governance</strong>,
+          <strong style="color:var(--text-primary);">openBIM interoperability</strong>, and
+          <strong style="color:var(--text-primary);">Python/pyRevit automation</strong> to deliver
+          models that are not just accurate — but intelligent, future-ready, and FM-handover-capable.
+        </p>
+
+        <!-- Inline stats -->
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:32px;" class="reveal d3">
+          <div style="padding:22px 24px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r-lg);">
+            <div class="stat-num" data-count="10" data-suffix="+" style="font-size:2.2rem;-webkit-text-fill-color:unset;color:var(--blue);">10+</div>
+            <div class="stat-lbl" data-i18n="about.s1.lbl">Years of Experience</div>
+          </div>
+          <div style="padding:22px 24px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r-lg);">
+            <div class="stat-num" data-count="60" data-suffix="+" style="font-size:2.2rem;-webkit-text-fill-color:unset;color:var(--violet);">60+</div>
+            <div class="stat-lbl" data-i18n="about.s2.lbl">Projects Delivered</div>
+          </div>
+          <div style="padding:22px 24px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r-lg);">
+            <div class="stat-num" data-count="5" data-suffix="" style="font-size:2.2rem;-webkit-text-fill-color:unset;color:var(--emerald);">5</div>
+            <div class="stat-lbl" data-i18n="about.s3.lbl">Countries Operated</div>
+          </div>
+          <div style="padding:22px 24px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r-lg);">
+            <div class="stat-num" data-count="100" data-suffix="%" style="font-size:2.2rem;-webkit-text-fill-color:unset;color:var(--amber);">100%</div>
+            <div class="stat-lbl" data-i18n="about.s4.lbl">ISO 19650 Compliant</div>
+          </div>
+        </div>
+
+        <!-- Tool stack -->
+        <div class="reveal d4">
+          <div style="font-family:var(--font-mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);margin-bottom:12px;" data-i18n="about.stack">Technology Stack</div>
+          <div style="display:flex;flex-wrap:wrap;gap:7px;">
+            <span class="hero-trust-badge">Autodesk Revit</span>
+            <span class="hero-trust-badge">Navisworks</span>
+            <span class="hero-trust-badge">AutoCAD · Civil 3D</span>
+            <span class="hero-trust-badge">Dynamo BIM</span>
+            <span class="hero-trust-badge">pyRevit</span>
+            <span class="hero-trust-badge">Python 3</span>
+            <span class="hero-trust-badge">BIM 360 / ACC</span>
+            <span class="hero-trust-badge">Solibri</span>
+            <span class="hero-trust-badge">Robot Structural</span>
+            <span class="hero-trust-badge">Bluebeam</span>
+            <span class="hero-trust-badge">IFC 4 · openBIM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Responsive about layout fix -->
+<style>
+@media(max-width:900px){
+  .about-layout{grid-template-columns:1fr !important;}
+  .about-layout>div:first-child{position:static !important;}
+}
+</style>
+
+<div class="section-divider" style="max-width:var(--container-max);margin:0 auto;"></div>
+
+<!-- ═══════════════════════════════════════
+     VALUE PROPOSITION — 3 Feature Cards
+═══════════════════════════════════════ -->
+<section id="features" aria-labelledby="features-h">
+  <div class="features-wrap">
+    <div class="section-header">
+      <div class="section-tag reveal" style="display:inline-flex;"><span class="dot"></span><span data-i18n="feat.tag">Core Services</span></div>
+      <h2 id="features-h" class="reveal d1"><span data-i18n="feat.h2.a">What I Bring to</span><br><span class="gradient-text" data-i18n="feat.h2.b">Your Project</span></h2>
+      <p class="section-sub reveal d2" data-i18n="feat.sub">From design coordination to digital handover — a complete, proven BIM service that eliminates rework, accelerates delivery, and reduces risk.</p>
+    </div>
+
+    <div class="features-grid">
+      <!-- Card 1 -->
+      <div class="feature-card reveal d1" style="--accent-grad:linear-gradient(90deg,var(--blue),var(--violet));">
+        <div class="feature-icon-wrap fi-blue">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+        </div>
+        <h3 data-i18n="f1.title">Multidisciplinary BIM Coordination</h3>
+        <p data-i18n="f1.desc">End-to-end coordination of Architecture, Structure, and MEP disciplines into a single federated model — clash-free, LOD-compliant, and ISO 19650 governed.</p>
+        <ul class="feature-list">
+          <li data-i18n="f1.l1">Federated model management across all disciplines</li>
+          <li data-i18n="f1.l2">Navisworks clash detection &amp; resolution workflows</li>
+          <li data-i18n="f1.l3">LOD 100–500 delivery for any project stage</li>
+          <li data-i18n="f1.l4">BIM Execution Plan (BEP) authorship</li>
+          <li data-i18n="f1.l5">Common Data Environment (CDE) setup &amp; admin</li>
+        </ul>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="feature-card reveal d2" style="--accent-grad:linear-gradient(90deg,var(--violet),#EC4899);">
+        <div class="feature-icon-wrap fi-violet">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <h3 data-i18n="f2.title">BIM Automation &amp; Scripting</h3>
+        <p data-i18n="f2.desc">Custom Python and pyRevit tools that eliminate repetitive manual tasks — from automated QA/QC reporting to Dynamo-driven generative design workflows.</p>
+        <ul class="feature-list">
+          <li data-i18n="f2.l1">pyRevit &amp; Revit API custom tool development</li>
+          <li data-i18n="f2.l2">Python-based clash reporting engines</li>
+          <li data-i18n="f2.l3">Dynamo scripts for generative &amp; parametric design</li>
+          <li data-i18n="f2.l4">Automated sheet generation &amp; naming compliance</li>
+          <li data-i18n="f2.l5">Quantity take-off automation via Revit API</li>
+        </ul>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="feature-card reveal d3" style="--accent-grad:linear-gradient(90deg,var(--emerald),var(--blue));">
+        <div class="feature-icon-wrap fi-green">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+        </div>
+        <h3 data-i18n="f3.title">ISO 19650 &amp; openBIM Compliance</h3>
+        <p data-i18n="f3.desc">Full implementation of ISO 19650 information management standards and buildingSMART openBIM protocols — from project setup through FM-ready digital handover.</p>
+        <ul class="feature-list">
+          <li data-i18n="f3.l1">ISO 19650-2 project information requirements</li>
+          <li data-i18n="f3.l2">IFC 4 export &amp; Solibri model validation</li>
+          <li data-i18n="f3.l3">COBie data structuring for FM handover</li>
+          <li data-i18n="f3.l4">Audit trail &amp; quality gate management</li>
+          <li data-i18n="f3.l5">Digital Twin readiness (Autodesk Tandem)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     STATS — Social Proof
+═══════════════════════════════════════ -->
+<section id="stats" aria-label="Key statistics">
+  <div class="stats-wrap">
+    <div class="stats-inner reveal">
+      <div class="stat-item">
+        <div class="stat-num" data-count="10" data-suffix="+">10+</div>
+        <div class="stat-lbl" data-i18n="stat1.lbl">Years of Experience</div>
+        <div class="stat-sub" data-i18n="stat1.sub">Est. 2014 · Active Globally</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-count="60" data-suffix="+">60+</div>
+        <div class="stat-lbl" data-i18n="stat2.lbl">Projects Delivered</div>
+        <div class="stat-sub" data-i18n="stat2.sub">Residential · Commercial · Infrastructure</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-count="5" data-suffix="">5</div>
+        <div class="stat-lbl" data-i18n="stat3.lbl">Countries Operated</div>
+        <div class="stat-sub" data-i18n="stat3.sub">TN · DZ · QA · SA · AE</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-count="100" data-suffix="%">100%</div>
+        <div class="stat-lbl" data-i18n="stat4.lbl">ISO 19650 Compliant</div>
+        <div class="stat-sub" data-i18n="stat4.sub">Every project · Every deliverable</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     PROJECTS
+═══════════════════════════════════════ -->
+<section id="projects" aria-labelledby="projects-h">
+  <div class="projects-wrap">
+    <div class="section-header">
+      <div class="section-tag reveal" style="display:inline-flex;"><span class="dot"></span><span data-i18n="proj.tag">Case Studies</span></div>
+      <h2 id="projects-h" class="reveal d1"><span data-i18n="proj.h2.a">Selected</span> <span class="gradient-text" data-i18n="proj.h2.b">Projects</span></h2>
+      <p class="section-sub reveal d2" data-i18n="proj.sub">Real projects, measurable outcomes. Click any card to explore the full case study.</p>
+    </div>
+
+    <div class="filter-row reveal d2" role="group" aria-label="Filter projects">
+      <button class="filter-btn active" data-filter="all"          aria-pressed="true"  data-i18n="filter.all">All</button>
+      <button class="filter-btn"        data-filter="architecture" aria-pressed="false" data-i18n="filter.arch">Architecture</button>
+      <button class="filter-btn"        data-filter="structure"    aria-pressed="false" data-i18n="filter.str">Structure</button>
+      <button class="filter-btn"        data-filter="mep"          aria-pressed="false" data-i18n="filter.mep">MEP</button>
+      <button class="filter-btn"        data-filter="coordination" aria-pressed="false" data-i18n="filter.coord">Coordination</button>
+    </div>
+
+    <div class="projects-grid" id="projectsGrid">
+
+      <!-- P1 -->
+      <article class="proj-card reveal d1" data-category="architecture coordination" data-id="1" role="button" tabindex="0" aria-label="Open Lusail Tower case study">
+        <div class="proj-img">
+          <img src="assets/images/project_tower.jpg" alt="Lusail Mixed-Use Tower, Qatar" loading="lazy" />
+          <div class="proj-img-overlay" aria-hidden="true"></div>
+          <span class="proj-tag pt-arch">Architecture · BIM</span>
+        </div>
+        <div class="proj-body">
+          <div class="proj-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span data-i18n="p1.loc">Lusail, Qatar</span></div>
+          <h3 class="proj-title" data-i18n="p1.title">Lusail Mixed-Use Supertall Tower</h3>
+          <p class="proj-desc" data-i18n="p1.desc">68-floor mixed-use development. Full LOD 400 architecture + MEP coordination. Zero clashes at handover.</p>
+          <div class="proj-chips"><span class="proj-chip">Revit</span><span class="proj-chip">Navisworks</span><span class="proj-chip">BIM 360</span><span class="proj-chip">LOD 400</span><span class="proj-chip">ISO 19650</span></div>
+          <div class="proj-footer">
+            <span class="proj-cta"><span data-i18n="p1.cta">View Case Study</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+        </div>
+      </article>
+
+      <!-- P2 -->
+      <article class="proj-card reveal d2" data-category="structure mep coordination" data-id="2" role="button" tabindex="0" aria-label="Open Hospital case study">
+        <div class="proj-img">
+          <img src="assets/images/project_hospital.jpg" alt="King Abdulaziz Medical City Expansion, KSA" loading="lazy" />
+          <div class="proj-img-overlay" aria-hidden="true"></div>
+          <span class="proj-tag pt-str">Structural · MEP</span>
+        </div>
+        <div class="proj-body">
+          <div class="proj-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span data-i18n="p2.loc">Riyadh, Saudi Arabia</span></div>
+          <h3 class="proj-title" data-i18n="p2.title">King Abdulaziz Medical City Expansion</h3>
+          <p class="proj-desc" data-i18n="p2.desc">350-bed hospital campus. ISO 19650 structural + MEP BIM with automated COBie FM handover package.</p>
+          <div class="proj-chips"><span class="proj-chip">Revit MEP</span><span class="proj-chip">Robot Structural</span><span class="proj-chip">Solibri</span><span class="proj-chip">COBie</span><span class="proj-chip">IFC 4</span></div>
+          <div class="proj-footer">
+            <span class="proj-cta"><span data-i18n="p2.cta">View Case Study</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+        </div>
+      </article>
+
+      <!-- P3 -->
+      <article class="proj-card reveal d3" data-category="architecture" data-id="3" role="button" tabindex="0" aria-label="Open Airport Terminal case study">
+        <div class="proj-img">
+          <img src="assets/images/project_airport.jpg" alt="Tunis Airport Terminal 3" loading="lazy" />
+          <div class="proj-img-overlay" aria-hidden="true"></div>
+          <span class="proj-tag pt-arch">Architecture · openBIM</span>
+        </div>
+        <div class="proj-body">
+          <div class="proj-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span data-i18n="p3.loc">Tunis, Tunisia</span></div>
+          <h3 class="proj-title" data-i18n="p3.title">Tunis–Carthage Airport — Terminal 3</h3>
+          <p class="proj-desc" data-i18n="p3.desc">65,000 m² international terminal. Full IFC 4 openBIM workflow. Parametric façade of 2,400+ panels.</p>
+          <div class="proj-chips"><span class="proj-chip">Revit Architecture</span><span class="proj-chip">Dynamo</span><span class="proj-chip">IFC 4</span><span class="proj-chip">openBIM</span></div>
+          <div class="proj-footer">
+            <span class="proj-cta"><span data-i18n="p3.cta">View Case Study</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+        </div>
+      </article>
+
+      <!-- P4 -->
+      <article class="proj-card reveal d1" data-category="architecture structure mep coordination" data-id="4" role="button" tabindex="0" aria-label="Open Eco-District case study">
+        <div class="proj-img">
+          <img src="assets/images/project_ecodistrict.jpg" alt="Oran Smart Eco-District" loading="lazy" />
+          <div class="proj-img-overlay" aria-hidden="true"></div>
+          <span class="proj-tag pt-coord">Multi-Discipline</span>
+        </div>
+        <div class="proj-body">
+          <div class="proj-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span data-i18n="p4.loc">Oran, Algeria</span></div>
+          <h3 class="proj-title" data-i18n="p4.title">Oran Smart Eco-District Masterplan</h3>
+          <p class="proj-desc" data-i18n="p4.desc">12-block sustainable district. pyRevit automation reduced QA/QC time by 70%. Dynamo generative design.</p>
+          <div class="proj-chips"><span class="proj-chip">pyRevit</span><span class="proj-chip">Dynamo</span><span class="proj-chip">Python</span><span class="proj-chip">QA/QC Automation</span></div>
+          <div class="proj-footer">
+            <span class="proj-cta"><span data-i18n="p4.cta">View Case Study</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+        </div>
+      </article>
+
+      <!-- P5 -->
+      <article class="proj-card reveal d2" data-category="mep coordination" data-id="5" role="button" tabindex="0" aria-label="Open NEOM Industrial case study">
+        <div class="proj-img">
+          <img src="assets/images/project_industrial.jpg" alt="NEOM Industrial MEP BIM" loading="lazy" />
+          <div class="proj-img-overlay" aria-hidden="true"></div>
+          <span class="proj-tag pt-mep">MEP · Coordination</span>
+        </div>
+        <div class="proj-body">
+          <div class="proj-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span data-i18n="p5.loc">NEOM, Saudi Arabia</span></div>
+          <h3 class="proj-title" data-i18n="p5.title">NEOM Industrial Utility Complex</h3>
+          <p class="proj-desc" data-i18n="p5.desc">4,200+ equipment tags, 87km piping. Python clash engine achieved 100% clash-free milestone.</p>
+          <div class="proj-chips"><span class="proj-chip">Revit MEP</span><span class="proj-chip">Python Automation</span><span class="proj-chip">P&amp;ID</span><span class="proj-chip">ACC</span></div>
+          <div class="proj-footer">
+            <span class="proj-cta"><span data-i18n="p5.cta">View Case Study</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+        </div>
+      </article>
+
+      <!-- P6 -->
+      <article class="proj-card reveal d3" data-category="architecture structure" data-id="6" role="button" tabindex="0" aria-label="Open Residential case study">
+        <div class="proj-img">
+          <img src="assets/images/project_residential.jpg" alt="Grand Tunis Residential Complex" loading="lazy" />
+          <div class="proj-img-overlay" aria-hidden="true"></div>
+          <span class="proj-tag pt-str">Architecture · Structure</span>
+        </div>
+        <div class="proj-body">
+          <div class="proj-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span data-i18n="p6.loc">La Marsa, Tunisia</span></div>
+          <h3 class="proj-title" data-i18n="p6.title">Grand Tunis Beachfront Residential</h3>
+          <p class="proj-desc" data-i18n="p6.desc">420 units, LOD 500 digital twin handover. Automated QTO saved 3 weeks of manual estimation.</p>
+          <div class="proj-chips"><span class="proj-chip">Revit</span><span class="proj-chip">Digital Twin</span><span class="proj-chip">LOD 500</span><span class="proj-chip">QTO Automation</span></div>
+          <div class="proj-footer">
+            <span class="proj-cta"><span data-i18n="p6.cta">View Case Study</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- Project Modal -->
+<div id="projModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="modal-bg" id="projModalBg"></div>
+  <div class="modal-panel" id="projModalPanel"><!-- JS populated --></div>
+</div>
+
+<!-- Video Modal -->
+<div id="videoModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Video introduction">
+  <div class="modal-bg" id="videoBg"></div>
+  <div class="modal-panel" style="padding:28px;max-width:880px;">
+    <button class="modal-close" id="videoClose" aria-label="Close video">✕</button>
+    <div class="video-wrap">
+      <video id="introVideo" controls playsinline preload="metadata" poster="assets/images/video_poster.jpg" aria-label="Mohamed Bassem Khemissi introduction video">
+        <source src="assets/videos/Generate_other_video_but_I_wan.mp4" type="video/mp4" />
+        <source src="assets/video/Generate_other_video_but_I_wan.mp4" type="video/mp4" />
+        <source src="assets/videos/intro.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     EXPERTISE TABS
+═══════════════════════════════════════ -->
+<section id="expertise" aria-labelledby="expertise-h">
+  <div class="expertise-wrap">
+    <div class="section-header">
+      <div class="section-tag reveal" style="display:inline-flex;"><span class="dot"></span><span data-i18n="exp.tag">Disciplines</span></div>
+      <h2 id="expertise-h" class="reveal d1"><span data-i18n="exp.h2.a">Deep Technical</span> <span class="gradient-text" data-i18n="exp.h2.b">Expertise</span></h2>
+      <p class="section-sub reveal d2" data-i18n="exp.sub">Three disciplines. One coordinated model. Zero excuses.</p>
+    </div>
+
+    <div class="tab-row reveal d2" role="tablist" aria-label="BIM Disciplines">
+      <button class="tab-btn active" data-tab="arch"   role="tab" aria-selected="true"  aria-controls="tab-arch"   data-i18n="tab.arch">Architecture</button>
+      <button class="tab-btn"        data-tab="struct" role="tab" aria-selected="false" aria-controls="tab-struct" data-i18n="tab.str">Structure</button>
+      <button class="tab-btn"        data-tab="mep"    role="tab" aria-selected="false" aria-controls="tab-mep"    data-i18n="tab.mep">MEP</button>
+    </div>
+
+    <!-- Architecture Tab -->
+    <div class="tab-panel active" id="tab-arch" role="tabpanel" aria-label="Architecture BIM">
+      <div class="tab-content">
+        <div class="tab-text reveal">
+          <span class="badge badge-blue" style="margin-bottom:16px;" data-i18n="arch.badge">Architecture BIM</span>
+          <h3><span data-i18n="arch.h3.a">From Concept to</span> <span class="gradient-text" data-i18n="arch.h3.b">Construction-Ready</span></h3>
+          <p data-i18n="arch.p">Full lifecycle architectural BIM — from schematic LOD 100 through fabrication-ready LOD 400. I author BEPs, set up CDEs, build parametric family libraries, and deliver models that contractors can build from directly.</p>
+          <div class="tab-deliverables">
+            <div class="tab-deliv">
+              <div class="tab-deliv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg></div>
+              <div class="tab-deliv-text"><strong data-i18n="arch.d1.t">LOD 100–500 Models</strong><span data-i18n="arch.d1.s">All design stages from masterplan to as-built</span></div>
+            </div>
+            <div class="tab-deliv">
+              <div class="tab-deliv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/></svg></div>
+              <div class="tab-deliv-text"><strong data-i18n="arch.d2.t">BIM Execution Plans</strong><span data-i18n="arch.d2.s">ISO 19650-compliant BEP + task team protocols</span></div>
+            </div>
+            <div class="tab-deliv">
+              <div class="tab-deliv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+              <div class="tab-deliv-text"><strong data-i18n="arch.d3.t">Parametric Family Libraries</strong><span data-i18n="arch.d3.s">Custom Revit families + Dynamo generative design</span></div>
+            </div>
+            <div class="tab-deliv">
+              <div class="tab-deliv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/></svg></div>
+              <div class="tab-deliv-text"><strong data-i18n="arch.d4.t">4D Construction Sequencing</strong><span data-i18n="arch.d4.s">Time-linked model for project programme validation</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-visual reveal d2">
+          <img src="assets/images/project_tower.jpg" alt="Architecture BIM — Lusail Tower" loading="lazy" />
+          <div class="tab-visual-overlay" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Structure Tab -->
+    <div class="tab-panel" id="tab-struct" role="tabpanel" aria-label="Structural BIM">
+      <div class="tab-content">
+        <div class="tab-text reveal">
+          <span class="badge badge-violet" style="margin-bottom:16px;" data-i18n="str.badge">Structural BIM</span>
+          <h3><span data-i18n="str.h3.a">Precision Structural</span> <span class="gradient-text" data-i18n="str.h3.b">Modeling</span></h3>
+          <p data-i18n="str.p">High-fidelity reinforced concrete, steel, and composite structural models — coordinated with architecture and MEP for zero structural clashes. Robot Structural Analysis integration ensures models are analysis-ready.</p>
+          <div class="tab-deliverables">
+            <div class="tab-deliv">
+              <div class="tab-deliv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg></div>
+              <div class="tab-deliv-text"><strong data-i18n="str.d1.t">RC &amp; Steel Structure Modeling</strong><span data-i18n="str.d1.s">Columns, beams, slabs, foundations, connections</span></div>
+            </div>
+            <div class="tab-deliv">
+              <div class="tab-deliv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+              <div class="tab-deliv-text"><strong data-i18n="str.d2.t">Robot Structural Integration</strong><span data-i18n="str.d2.s">Bi-directional model sync for analysis</span></div>
+            </div>
+            <div class="tab-deliv">
+              <div class="tab-deliv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div>
+              <div class="tab-deliv-text"><strong data-i18n="str.d3.t">Reinforcement Detailing</strong><span data-i18n="str.d3.s">Bar schedules, rebar models for shop drawings</span></div>
+            </div>
+            <div class="tab-deliv">
+              <div class="tab-deliv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg></div>
+              <div class="tab-deliv-text"><strong data-i18n="str.d4.t">Structural QTO</strong><span data-i18n="str.d4.s">Automated material take-off schedules</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-visual reveal d2">
+          <img src="assets/images/project_hospital.jpg" alt="Structural BIM — Hospital Campus" loading="lazy" />
+          <div class="tab-visual-overlay" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MEP Tab -->
+    <div class="tab-panel" id="tab-mep" role="tabpanel" aria-label="MEP BIM">
+      <div class="tab-content">
+        <div class="tab-text reveal">
+          <span class="badge badge-green" style="margin-bottom:16px;" data-i18n="mep.badge">MEP BIM</span>
+          <h3><span data-i18n="mep.h3.a">Clash-Free MEP</span> <span class="gradient-text" data-i18n="mep.h3.b">Coordination</span></h3>
+          <p data-i18n="mep.p">Complete mechanical, electrical, and plumbing modeling with Python-automated clash resolution. From duct routing to COBie data — MEP models built for construction and FM handover from day one.</p>
+          <div class="tab-deliverables">
+            <div class="tab-deliv">
+              <div class="tab-deliv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg></div>
+              <div class="tab-deliv-text"><strong data-i18n="mep.d1.t">HVAC Duct &amp; Pipe Routing</strong><span data-i18n="mep.d1.s">Fully coordinated, pressure-drop compliant systems</span></div>
+            </div>
+            <div class="tab-deliv">
+              <div class="tab-deliv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+              <div class="tab-deliv-text"><strong data-i18n="mep.d2.t">Electrical Containment &amp; Panels</strong><span data-i18n="mep.d2.s">Cable tray, conduit, lighting, LV distribution</span></div>
+            </div>
+            <div class="tab-deliv">
+              <div class="tab-deliv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+              <div class="tab-deliv-text"><strong data-i18n="mep.d3.t">Python Clash Resolution Engine</strong><span data-i18n="mep.d3.s">Nightly automated clash categorization &amp; priority scoring</span></div>
+            </div>
+            <div class="tab-deliv">
+              <div class="tab-deliv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div>
+              <div class="tab-deliv-text"><strong data-i18n="mep.d4.t">COBie Data &amp; FM Handover</strong><span data-i18n="mep.d4.s">Asset-tagged models ready for building operations</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-visual reveal d2">
+          <img src="assets/images/project_industrial.jpg" alt="MEP BIM — Industrial Facility Coordination" loading="lazy" />
+          <div class="tab-visual-overlay" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     FAQ ACCORDION
+═══════════════════════════════════════ -->
+<section id="faq" aria-labelledby="faq-h">
+  <div class="faq-wrap">
+    <div class="section-header">
+      <div class="section-tag reveal" style="display:inline-flex;"><span class="dot"></span><span data-i18n="faq.tag">FAQ</span></div>
+      <h2 id="faq-h" class="reveal d1"><span data-i18n="faq.h2.a">Frequently Asked</span> <span class="gradient-text" data-i18n="faq.h2.b">Questions</span></h2>
+      <p class="section-sub reveal d2" data-i18n="faq.sub">Everything you need to know before we work together.</p>
+    </div>
+
+    <div class="faq-list reveal d2" role="list">
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          <span data-i18n="faq.q1">What does your BIM coordination workflow look like end-to-end?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-a" aria-hidden="true">
+          <div class="faq-a-inner" data-i18n="faq.a1">My workflow begins with authoring a BIM Execution Plan (BEP) — establishing naming conventions, LOD milestones, CDE protocols, and task team responsibilities per ISO 19650. I then set up the Common Data Environment (BIM 360 / ACC), onboard all discipline leads, and establish a weekly coordination cycle: model uploads → federated model build → Navisworks clash detection → issue tracking → resolution → sign-off. Python scripts automate clash reporting and compliance checks, reducing manual effort by up to 70%.</div>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          <span data-i18n="faq.q2">Do you work remotely or on-site, and are you available internationally?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-a" aria-hidden="true">
+          <div class="faq-a-inner" data-i18n="faq.a2">Both. I'm based in Tunis, Tunisia, and have extensive experience working on projects across Qatar, Saudi Arabia, Algeria, UAE, and Europe. For international projects I operate fully remotely using cloud-based CDE platforms (BIM 360, ACC). For key milestones — project kickoff, design reviews, or client workshops — I'm available to travel. I work across CEST, AST, and GST time zones without issue.</div>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          <span data-i18n="faq.q3">What makes your pyRevit/Python automation different from standard BIM delivery?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-a" aria-hidden="true">
+          <div class="faq-a-inner" data-i18n="faq.a3">Standard BIM delivery relies on manual model audits, manual sheet generation, and manual data exports — which is slow, error-prone, and expensive at scale. My automation layer uses the Revit API and pyRevit framework to run nightly quality checks, flag naming violations, generate compliance reports, produce quantity take-offs directly from the model, and auto-export IFC/COBie data. On a recent NEOM project, this reduced weekly QA/QC hours from 40 to under 12, while improving accuracy to near-zero error rate.</div>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          <span data-i18n="faq.q4">Can you take over or rescue an existing BIM project that's in trouble?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-a" aria-hidden="true">
+          <div class="faq-a-inner" data-i18n="faq.a4">Yes — this is a specific specialty. I've taken over several mid-project BIM workflows that lacked governance, had unresolved clash backlogs, or needed an urgent ISO 19650 compliance retrofit. My first step is a rapid model audit using Solibri and custom scripts to quantify issues. I then produce a recovery roadmap with prioritized actions, re-establish CDE discipline, and stabilize the workflow. Projects have gone from hundreds of open clashes to zero within 6–8 weeks under this approach.</div>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          <span data-i18n="faq.q5">What is DigiBuild Solutions and how do you engage with clients?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-a" aria-hidden="true">
+          <div class="faq-a-inner" data-i18n="faq.a5">DigiBuild Solutions is my independent BIM consultancy, delivering multidisciplinary BIM services, automation tooling, and ISO 19650 compliance advisory. I engage with clients directly as a senior BIM specialist/manager, or I can embed within your existing team. Engagements range from full-project BIM management retainers to targeted sprint deliveries (e.g., a specific automation tool, a model audit, or a BEP). I also offer mentoring and team training programs for organizations building internal BIM capability.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     CTA BANNER
+═══════════════════════════════════════ -->
+<section id="cta" aria-label="Call to action">
+  <div class="cta-wrap">
+    <div class="cta-box reveal">
+      <div class="cta-orb cta-orb-1" aria-hidden="true"></div>
+      <div class="cta-orb cta-orb-2" aria-hidden="true"></div>
+      <span class="section-tag" style="display:inline-flex;margin-bottom:20px;"><span class="dot"></span><span data-i18n="cta.tag">Let's Build Together</span></span>
+      <h2><span data-i18n="cta.h2.a">Your Next Project Deserves</span><br><span class="gradient-text" data-i18n="cta.h2.b">Precision BIM</span></h2>
+      <p data-i18n="cta.p">Whether you're scaling to BIM for the first time, need an expert to rescue a troubled project, or want to automate your quality workflows — let's talk about what's possible.</p>
+      <div class="cta-actions">
+        <a href="#contact" class="btn btn-primary btn-lg">
+          <span data-i18n="cta.btn1">Start a Conversation</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="assets/portfolio.pdf" class="btn btn-secondary btn-lg" download aria-label="Download portfolio PDF">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span data-i18n="cta.btn2">Download Portfolio</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     CONTACT
+═══════════════════════════════════════ -->
+<section id="contact" aria-labelledby="contact-h">
+  <div class="contact-wrap">
+    <div class="contact-grid">
+
+      <div>
+        <div class="section-tag reveal"><span class="dot"></span><span data-i18n="ct.tag">Get In Touch</span></div>
+        <h2 id="contact-h" class="reveal d1"><span data-i18n="ct.h2.a">Let's Make Your</span><br><span class="gradient-text" data-i18n="ct.h2.b">Project Happen</span></h2>
+        <p class="reveal d2" style="margin-top:14px;" data-i18n="ct.p">From technical directors to HR teams to project owners — if you're looking for proven BIM expertise, I'd love to hear from you.</p>
+
+        <div class="contact-items reveal d3">
+          <a href="mailto:bassem@digibuild-solutions.com" class="contact-item" aria-label="Direct Email">
+            <div class="contact-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div><div class="contact-item-label" data-i18n="ct.email.direct">Direct Email</div><div class="contact-item-value">bassem@digibuild-solutions.com</div></div>
+          </a>
+          <a href="mailto:info@digibuild-solutions.com" class="contact-item" aria-label="General Inquiries">
+            <div class="contact-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div><div class="contact-item-label" data-i18n="ct.email.info">General Inquiries</div><div class="contact-item-value">info@digibuild-solutions.com</div></div>
+          </a>
+          <a href="https://www.linkedin.com/in/mohamed-bassem-khemissi/" class="contact-item" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <div class="contact-item-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></div>
+            <div><div class="contact-item-label">LinkedIn</div><div class="contact-item-value">linkedin.com/in/mohamed-bassem-khemissi</div></div>
+          </a>
+          <div class="contact-item">
+            <div class="contact-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div><div class="contact-item-label">Location</div><div class="contact-item-value" data-i18n="ct.loc">Tunis, Tunisia · Available Globally</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form reveal d1">
+        <form id="contactForm" action="https://formsubmit.co/bassem@digibuild-solutions.com" method="POST" novalidate>
+          <input type="hidden" name="_subject" value="New Inquiry from DigiBuild Solutions Portfolio" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="fName" class="form-label" data-i18n="form.name">Full Name</label>
+              <input type="text" id="fName" name="name" class="form-input" data-i18n-ph="form.name.p" placeholder="Jane Smith" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="fEmail" class="form-label" data-i18n="form.email">Email</label>
+              <input type="email" id="fEmail" name="email" class="form-input" data-i18n-ph="form.email.p" placeholder="jane@firm.com" required autocomplete="email" />
+            </div>
+            <div class="form-group form-full">
+              <label for="fCompany" class="form-label" data-i18n="form.co">Company / Organization</label>
+              <input type="text" id="fCompany" name="company" class="form-input" data-i18n-ph="form.co.p" placeholder="AECOM · Arup · Dar Al-Handasah · ..." autocomplete="organization" />
+            </div>
+            <div class="form-group form-full">
+              <label for="fSubject" class="form-label" data-i18n="form.subj">Subject</label>
+              <input type="text" id="fSubject" name="subject" class="form-input" data-i18n-ph="form.subj.p" placeholder="BIM Consultation · Project Inquiry · Recruitment ..." required />
+            </div>
+            <div class="form-group form-full">
+              <label for="fMsg" class="form-label" data-i18n="form.msg">Message</label>
+              <textarea id="fMsg" name="message" class="form-input form-textarea" rows="5" data-i18n-ph="form.msg.p" placeholder="Tell me about your project, team, or opportunity..." required></textarea>
+            </div>
+          </div>
+          <button type="submit" id="fSubmit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center;margin-top:4px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            <span id="fBtnText" data-i18n="form.send">Send Message</span>
+          </button>
+        </form>
+        <div id="fSuccess" style="display:none;text-align:center;padding:40px 20px;">
+          <div style="font-size:2.5rem;margin-bottom:12px;color:var(--emerald);">✓</div>
+          <div style="font-family:var(--font-display);font-weight:700;font-size:1.1rem;color:var(--text-primary);margin-bottom:6px;" data-i18n="form.ok">Sent! I'll reply within 24 hours.</div>
+          <button type="button" id="fResetBtn" class="btn btn-secondary" style="margin-top:16px;padding:8px 20px;font-size:.82rem;">Send Another Message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════ -->
+<footer id="footer" style="background:var(--bg-surface);border-top:1px solid var(--border);padding:clamp(56px,8vw,88px) var(--container-pad) clamp(24px,4vw,40px);">
+  <div style="max-width:var(--container-max);margin:0 auto;">
+    <div style="display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:clamp(32px,5vw,64px);margin-bottom:clamp(40px,6vw,64px);" class="footer-cols">
+      <!-- Brand -->
+      <div>
+        <a href="#hero" style="display:inline-block;margin-bottom:14px;" aria-label="DigiBuild Solutions">
+          <img src="assets/images/digibuild_logo.png" alt="DigiBuild Solutions" style="height:38px;width:auto;display:block;" />
+        </a>
+        <p style="font-size:.82rem;color:var(--text-secondary);line-height:1.75;max-width:280px;" data-i18n="ft.desc">Senior BIM Professional &amp; Founder of DigiBuild Solutions. Delivering precision-engineered digital intelligence for the global AEC industry.</p>
+        <div style="display:flex;gap:10px;margin-top:20px;">
+          <a href="https://www.linkedin.com/in/mohamed-bassem-khemissi/" target="_blank" rel="noopener noreferrer" style="width:34px;height:34px;border-radius:50%;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--text-muted);transition:border-color .15s,color .15s;" aria-label="LinkedIn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://github.com/mbk-bim" target="_blank" rel="noopener noreferrer" style="width:34px;height:34px;border-radius:50%;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--text-muted);transition:border-color .15s,color .15s;" aria-label="GitHub">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+          </a>
+        </div>
+      </div>
+      <!-- Navigation -->
+      <div>
+        <div style="font-family:var(--font-display);font-weight:700;font-size:.82rem;letter-spacing:.04em;text-transform:uppercase;color:var(--text-primary);margin-bottom:16px;" data-i18n="ft.nav">Navigation</div>
+        <ul style="display:flex;flex-direction:column;gap:9px;">
+          <li><a href="#about"     style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.about">About</a></li>
+          <li><a href="#features"  style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.services">Services</a></li>
+          <li><a href="#projects"  style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.projects">Projects</a></li>
+          <li><a href="#expertise" style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.exp">Expertise</a></li>
+          <li><a href="#faq"       style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.faq">FAQ</a></li>
+          <li><a href="#contact"   style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- Services -->
+      <div>
+        <div style="font-family:var(--font-display);font-weight:700;font-size:.82rem;letter-spacing:.04em;text-transform:uppercase;color:var(--text-primary);margin-bottom:16px;" data-i18n="ft.services">Services</div>
+        <ul style="display:flex;flex-direction:column;gap:9px;">
+          <li><a href="#features" style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.bimco">BIM Coordination</a></li>
+          <li><a href="#expertise" style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.archbim">Architecture BIM</a></li>
+          <li><a href="#expertise" style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.strbim">Structural BIM</a></li>
+          <li><a href="#expertise" style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.mepbim">MEP BIM</a></li>
+          <li><a href="#features"  style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.iso">ISO 19650 Compliance</a></li>
+          <li><a href="#features"  style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.auto">BIM Automation</a></li>
+        </ul>
+      </div>
+      <!-- Resources -->
+      <div>
+        <div style="font-family:var(--font-display);font-weight:700;font-size:.82rem;letter-spacing:.04em;text-transform:uppercase;color:var(--text-primary);margin-bottom:16px;" data-i18n="ft.res">Resources</div>
+        <ul style="display:flex;flex-direction:column;gap:9px;">
+          <li><a href="assets/portfolio.pdf" download style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.pdf">Portfolio PDF</a></li>
+          <li><a href="https://notion.so" target="_blank" rel="noopener noreferrer" style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.notion">Notion Hub</a></li>
+          <li><a href="https://github.com/mbk-bim" target="_blank" rel="noopener noreferrer" style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.github">GitHub Scripts</a></li>
+          <li><a href="https://www.linkedin.com/in/mohamed-bassem-khemissi/" target="_blank" rel="noopener noreferrer" style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.linkedin">LinkedIn</a></li>
+          <li><a href="#contact" style="font-size:.82rem;color:var(--text-secondary);" data-i18n="ft.contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Footer bottom -->
+    <div style="border-top:1px solid var(--border);padding-top:24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+      <p style="font-size:.75rem;color:var(--text-muted);" data-i18n="ft.copy">© 2026 Mohamed Bassem Khemissi · DigiBuild Solutions. All rights reserved.</p>
+      <p style="font-size:.72rem;color:var(--text-muted);font-family:var(--font-mono);" data-i18n="ft.built">Built without frameworks · Crafted with precision.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+@media(max-width:800px){
+  .footer-cols{grid-template-columns:1fr 1fr !important;}
+}
+@media(max-width:480px){
+  .footer-cols{grid-template-columns:1fr !important;}
+}
+</style>
+
+<script src="translations.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
